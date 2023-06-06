@@ -2,7 +2,7 @@ import subprocess
 import os
 
 l=[]
-for i in range(69):
+for i in range(5):
   print(i)
   l.append(i)
 print(l)
