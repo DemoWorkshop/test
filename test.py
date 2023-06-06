@@ -1,6 +1,6 @@
 import subprocess
 
-subprocess.run("git pull origin", creationflags=subprocess.CREATE_NO_WINDOW)
+subprocess.run("git pull origin", stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, shell=True)
 
 l=[]
 for i in range(69):
